@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Enter a day"
+read day
+
+case $day in
+monday) echo "Working day"
+;;
+tuesday) echo "Working day"
+;;
+wednesday) echo "Working day"
+;;
+thursday) echo "Working day"
+;;
+friday) echo "Working day"
+;;
+saturday) echo "Holiday"
+;;
+sunday) echo "Holiday"
+;;
+*) echo "Enter a day in a week "
+;;
+esac
